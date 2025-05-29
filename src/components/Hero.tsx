@@ -19,7 +19,7 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
           {/* Left Column - Text Content */}
           <div className="space-y-6 sm:space-y-8 md:space-y-10 animate-fade-in text-center lg:text-left order-2 lg:order-1">
-            <div className="inline-flex items-center px-3 sm:px-4 md:px-6 py-2 sm:py-2 md:py-3 bg-gradient-to-r from-white/90 to-white/70 backdrop-blur-sm rounded-full border border-brandmate-purple/20 shadow-xl mx-auto lg:mx-0 mt-5">
+            <div className="inline-flex items-center px-3 sm:px-4 md:px-6 py-2 sm:py-2 md:py-3 bg-gradient-to-r from-white/90 to-white/70 backdrop-blur-sm rounded-full border border-brandmate-purple/20 shadow-xl mx-auto lg:mx-0">
               <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 md:w-5 md:h-5 text-brandmate-purple mr-2 sm:mr-2 md:mr-3 flex-shrink-0" />
               <span className="text-xs sm:text-sm md:text-base font-inter font-semibold text-brandmate-slate">A complete suite that makes influencers life easy!</span>
             </div>
@@ -75,7 +75,7 @@ const Hero = () => {
                 size="lg" 
                 className="bg-gradient-to-r from-brandmate-purple to-indigo-600 hover:from-brandmate-purple/90 hover:to-indigo-600/90 text-white px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-6 text-base sm:text-lg md:text-xl font-poppins font-bold rounded-xl md:rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105 animate-glow"
               >
-                Start Your Creator Journey
+                Join Waitlist :)
                 <ChevronRight className="ml-2 sm:ml-2 md:ml-3 w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6" />
               </Button>
               
@@ -84,11 +84,11 @@ const Hero = () => {
                 size="lg" 
                 className="border-2 border-brandmate-purple text-brandmate-purple hover:bg-brandmate-purple hover:text-white px-6 sm:px-8 md:px-10 py-3 sm:py-4 md:py-6 text-base sm:text-lg md:text-xl font-poppins font-semibold rounded-xl md:rounded-2xl transition-all duration-300 hover:scale-105"
               >
-                Watch Demo
+                Coming Soon!
               </Button>
             </div>
             
-            <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 md:gap-8 pt-4 md:pt-6 justify-center lg:justify-start">
+            <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 md:gap-8 pt-6 pb-12 md:pt-6  mb:pt-12 justify-center lg:justify-start">
               <div className="flex -space-x-2 sm:-space-x-3">
                 {[1, 2, 3, 4, 5].map((i) => (
                   <div key={i} className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 rounded-full bg-gradient-to-r from-brandmate-purple to-brandmate-gold border-2 border-white shadow-lg"></div>
